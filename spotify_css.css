@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: cyan;
+  background-image: url(https://thumbs2.imgbox.com/8a/5d/RM36kByl_t.jpg);
+  background-size: cover;
+}
+form p{
+  color:white;
+}
+#album-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#album-view .album {
+  margin: 10px;
+  border: 1px solid slategray;
+  padding: 5px;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+#album-view img {
+  max-width: 100%;
+}
+
+h1{
+  color:red;
+  text-align: center;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
